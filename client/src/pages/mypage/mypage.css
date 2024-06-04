@@ -1,0 +1,204 @@
+/* div CSS */
+
+.mypageMain {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+.mypageContents {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-left: 7%;
+    margin: 5% auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.MypageTop {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MypageLogo {
+    font-weight: 500;
+    font-size: 24px;
+    color: #333333;
+}
+
+.MypageContets {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: flex-start;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.MyImage {
+    width: 200px;
+    height: 300px;
+    border: 3px solid #dddddd;
+    border-radius: 8px;
+}
+
+.MyInfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* button CSS */
+.MyUpdateBtn,
+.MyReviewBtn,
+.uploadBtn,
+.homeBtn,
+.saveBtn {
+    width: 100%;
+    max-width: 200px;
+    height: 20px;
+    margin-top: 10px;
+    font-size: 10px;
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.MyUpdateBtn:hover,
+.MyReviewBtn:hover,
+.uploadBtn:hover,
+.homeBtn:hover,
+.saveBtn:hover {
+    background-color: #f0f0f0;
+}
+
+/* footer CSS */
+.InfoFooter {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ProfileContents {
+    display: flex;
+    justify-content: center; /* Align center horizontally */
+    margin-top: 20px;
+}
+
+.profileUpload {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.uploadFile {
+    width: 200px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.InfoInput{
+    width: 200px;
+    margin-bottom: 2%;
+}
+.InfoSpan{
+    width: 200px;
+    margin-bottom: 2%;
+    text-align: left;
+    font-size: 13px;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .mypageContents {
+        padding: 20px;
+    }
+
+    .MypageContets {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Align items center horizontally */
+    }
+
+    .MyImage {
+        margin-bottom: 20px; /* Add space between image and other content */
+    }
+}
+
+/* 팔로우 영역 CSS */
+
+/* .followSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 5% auto;
+    margin-left: 5%;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.followInfo {
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.followCount {
+    display: inline-flex;
+    margin: 5%;
+    color: #000; 
+    font-weight: bold;
+}
+
+.followActions {
+    display: flex;
+    justify-content: center;
+}
+
+.followBtn, .unfollowBtn {
+    height: 30px;
+    padding: 0 15px;
+    border: none;
+    background-color: #000; 
+    color: #fff; 
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.unfollowBtn {
+    background-color: #dc3545;
+}
+
+.followBtn:hover, .unfollowBtn:hover {
+    background-color: #555;
+    opacity: 0.8;
+} */

@@ -1,0 +1,75 @@
+/* div CSS */
+.headerMain{
+    width: 100%;
+    height: 7vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    float: left;
+    background: linear-gradient(to right, white, gray);
+    border-bottom: 1px solid white;
+    border: none;
+    z-index: 1000;
+}
+.headerLogo{
+    top: -1%;
+    left: 1%;
+    position: fixed;
+    font-family: monospace;
+}
+
+
+.headerBtnDiv {
+    float:left;
+    position: fixed;
+    top: 1%;
+    right: 0%;
+    width: 10%;
+    height: auto;
+}
+
+/* 버튼 CSS */
+.HomeBtn{
+    float:left;
+    text-align: left;
+    font-size: 13px;
+    color:cadetblue;
+    font-weight: 100;
+    font-style: italic;
+    width: 130px;
+    height: 50px;
+    background-color: transparent;
+    border:none;
+    animation: bounce 0.3s ease infinite alternate;
+}
+
+.headerBtn {
+    background-color: transparent;
+    float: left;
+    margin-right: 2%;
+    margin-top: 7%;
+    border-radius: 5px;
+    border: 1px ;
+    font-size: 13px;
+    font-family: monospace;
+    color:white;
+}
+
+/* 애니메이션 정의 */
+@keyframes bounce {
+    100% {
+        top: -20px;
+        text-shadow: 0 1px 0 red,
+                     0 2px 0 orange,
+                     0 3px 0 yellow,
+                     0 4px 0 green,
+                     0 5px 0 blue,
+                     0 6px 0 darkblue,
+                     0 7px 0 violet,
+                     0 8px 0 black,
+                     0 9px 0 black,
+                     0 50px 25px rgba(0, 0, 0, .2);
+    }
+}
+
+

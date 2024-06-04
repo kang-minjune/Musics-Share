@@ -1,0 +1,131 @@
+ /* div CSS */
+ .RegisterDiv{
+     display: inline;
+ }
+
+ .GenderAddress {
+    display:flex;
+ }
+ 
+ .RegisterMain {
+    width: 45%;
+    height: 500px;
+    justify-self: center;
+    padding-top: 7%;
+    margin-left: 30%;
+ }
+ 
+
+ /* fieldset CSS */
+ .RegisterField{
+     border: none;
+ }
+ 
+ 
+ /* form CSS */
+ .RegisterForm {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 15%;
+    width: 510px;
+ }
+ 
+ 
+ 
+ .RegisterIconForm{
+     float:left;
+     margin-top: 5%;
+ }
+ 
+ 
+ /* input CSS */
+ .RegisterWrite {
+     width: 500px;
+     height: 20px;
+     display: grid;
+     flex: 1;
+     margin-bottom: 2%;
+ }
+
+ .RegisterEmail {
+     width: 410px;
+     height: 20px;
+     display: inline-block;
+     flex: 1;
+     margin-bottom: 2%;
+ }
+
+ .RegisterPhone {
+    width: 410px;
+    height: 20px;
+    display: inline-block;
+    flex: 1;
+    margin-bottom: 2%;
+ }
+
+ .CountryWrite{
+   width: 200px;
+}
+
+ .CityWrite{
+    width: 200px;
+    margin-left: 2%;
+ }
+
+ /* span CSS */
+ .RegisterSpan{
+    font-size: 15px;
+    display: grid;
+    text-align: left;
+ }
+
+ /* id CSS */
+ #RegisterAddress{
+    display: inline-block;
+ }
+
+
+ /* 성별 select CSS */
+ .GenderOption{
+    justify-content: left;
+ }
+
+ /* button CSS */
+.RegisterBtnForm {
+     float: right;
+     margin-top: 5%;
+ }
+
+.SignupGoBtn {
+     display: inline;
+     background-color: transparent;
+     border:none;
+     font-size: 11px;
+ }
+
+ .EmailConfirmBtn {
+    display: inline-block;
+    font-size: 10px;
+    height: 26px;
+    width: 85px;
+    flex: 1;
+    margin-left: 1%;
+    border-radius: 10px;
+    border: 1px solid silver;
+ }
+
+ .RegisterBtn {
+     background-color: transparent;
+     border:none;
+     font-size: 11px;
+ }
+
+ .AddressConfirmBtn{
+     font-size: 10px;
+     height: 26px;
+     width: 90px;
+     margin-left: 1%;
+     border-radius: 10px;
+     border: 1px solid silver;
+     display: inline-block;
+ }

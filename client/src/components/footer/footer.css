@@ -1,0 +1,26 @@
+.footerMain {
+    width: 100%;
+    height: 5vh;
+    background: linear-gradient(to left, white, gray);
+    border: none;
+    position: fixed;
+    bottom: 0;
+    z-index: 980;
+}
+
+.Copyright {
+    margin-right: 1%;
+    margin-top: 1%;
+    display: flex;
+    align-items: center; /* 텍스트 수직 중앙 정렬 */
+    position: absolute; /* 부모 요소에 대해 상대적 위치 설정 */
+    right: 0;
+    bottom: 0;
+}
+
+/* span CSS */
+.copyrightSpan {
+    font-weight: 350;
+    font-style: oblique;
+    color: gray;
+}

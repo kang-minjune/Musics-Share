@@ -1,0 +1,16 @@
+.navMain{
+   top: 0;
+   position: fixed;
+   float: left;
+}
+
+.navContents{
+    width: 100%;
+    height: 10%;
+}
+
+.navLogo{
+    width: 20%;
+    height: 50px;
+    background-color: white;
+}
