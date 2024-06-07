@@ -62,10 +62,10 @@ const Posting = () => {
                <input name="artist" className='postingInput' placeholder="Artist Name" required />
                <input name="title" className='postingInput' placeholder="Title Name" required />
 
-               <input name="userid" value={user?._id} style={{ display: 'none' }} />
+               <input name="userid" defaultValue={user?._id} style={{ display: 'none' }} />
 
                <select name="genre" style={{float:"left",width:"75px", height:"27px"}}>
-                  <option value="장르" selected>장르</option>
+                  <option value="장르" disabled selected>장르</option>
                   <option value="R&B">R&B</option>
                   <option value="K-POP">K-POP</option>
                   <option value="인디">인디</option>
