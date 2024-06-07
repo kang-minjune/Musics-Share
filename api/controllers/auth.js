@@ -37,7 +37,8 @@ export const login = async (req, res, next) => {
         res.cookie("access_token", token, {
             httpOnly: true,
             sameSite: 'strict',
-            path: '/'
+            domain: "localhost",
+            path: '/',
         }).status(200)
         .json({ details: {...otherDetails}, isAdmin, token });
         console.log(token);
@@ -53,6 +54,8 @@ export const logout = (req, res) => {
         secure: process.env.NODE_ENV === "production",
         path: '/',
         sameSite: 'strict',
-    }).status(200)
+        domain:"localhost"
+    })
+    .status(200)
     .json({message: "Logged out successfully"});
 }

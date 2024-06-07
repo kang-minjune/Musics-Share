@@ -23,7 +23,10 @@ const Header = () => {
     const handleLogoutButton = async () => {
       try{
         const apiUrl = process.env.REACT_APP_API_URL;
-        await axios.post(`${apiUrl}/auth/logout`, {}, { withCredentials:  true });
+        console.log("Dwqdqw");
+        const res =  await axios.post(`${apiUrl}/auth/logout`, {}, { withCredentials:  true });
+        
+        console.log(res.data);
         dispatch({ type: "LOGOUT" });
         window.location.reload();
       } catch(err){

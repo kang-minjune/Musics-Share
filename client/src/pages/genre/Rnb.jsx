@@ -111,6 +111,7 @@ const Rnb = () => {
                                        src={music.link} 
                                        title={music.title} 
                                        style={{width:"350px", height:"200px"}} 
+                                       allowFullScreen
                                 />
                                 <h4>아티스트 : {music.artist}</h4>
                                 <p>제목 : {music.title}</p>
