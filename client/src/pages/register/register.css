@@ -8,11 +8,18 @@
  }
  
  .RegisterMain {
-    width: 45%;
-    height: 500px;
-    justify-self: center;
-    padding-top: 7%;
-    margin-left: 30%;
+   width: 95%;
+   height: 90vh;
+   background-color: white;
+   background-image: url("/public/background2.png");
+   background-position: bottom ;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   margin-left: 5%;
+   margin-bottom: 2%;
+   float: left;
+   bottom: 0;
+   position: fixed;
  }
  
 
@@ -24,9 +31,9 @@
  
  /* form CSS */
  .RegisterForm {
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 15%;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 10%;
     width: 510px;
  }
  
@@ -45,6 +52,9 @@
      display: grid;
      flex: 1;
      margin-bottom: 2%;
+     background-color: transparent;
+     border: 1px solid black;
+     border-radius: 10px;
  }
 
  .RegisterEmail {
@@ -53,23 +63,35 @@
      display: inline-block;
      flex: 1;
      margin-bottom: 2%;
+     background-color: transparent;
+     border: 1px solid black;
+     border-radius: 10px;
  }
 
  .RegisterPhone {
-    width: 410px;
-    height: 20px;
-    display: inline-block;
-    flex: 1;
-    margin-bottom: 2%;
+      width: 410px;
+      height: 20px;
+      display: inline-block;
+      flex: 1;
+      margin-bottom: 2%;
+      background-color: transparent;
+      border: 1px solid black;
+      border-radius: 10px;
  }
 
  .CountryWrite{
-   width: 200px;
+      width: 200px;
+      background-color: transparent;
+      border: 1px solid black;
+      border-radius: 10px;
 }
 
  .CityWrite{
-    width: 200px;
-    margin-left: 2%;
+      width: 200px;
+      margin-left: 2%;
+      background-color: transparent;
+      border: 1px solid black;
+      border-radius: 10px;
  }
 
  /* span CSS */
@@ -111,7 +133,8 @@
     flex: 1;
     margin-left: 1%;
     border-radius: 10px;
-    border: 1px solid silver;
+    border: 1px solid black;
+    background-color: transparent;
  }
 
  .RegisterBtn {
@@ -128,4 +151,6 @@
      border-radius: 10px;
      border: 1px solid silver;
      display: inline-block;
+     border: 1px solid black;
+     background-color: transparent;
  }

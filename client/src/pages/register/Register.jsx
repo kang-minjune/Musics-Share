@@ -58,7 +58,7 @@ const Register = () => {
                   <span className='RegisterSpan'>Phone </span>
                   <div>
                       <input type='tel' id='phone' className='RegisterPhone' placeholder='User Phone Number' onChange={handleChange} required />
-                      <button type='button' className='EmailConfirmBtn'>Confirm Number</button>
+                      <button type='button' className='EmailConfirmBtn'>Confirm Num</button>
                   </div>
 
                   <div className='RegisterSpan'>
