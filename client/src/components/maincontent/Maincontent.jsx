@@ -53,7 +53,7 @@ const Maincontent = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <p className='pContent1'>
           <span className='cd'></span>  
-          <b style={{color:"snow"}}>
+          <b>
             Share your playlist. <button onClick={openPopup} id="popupControlBtn" className="metal linear">MANUAL</button> <br/>
             Sync it right now!
           </b>
