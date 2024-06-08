@@ -182,16 +182,16 @@ const Edit = () => {
                         <b>K-POP</b>
                      </button>
                      <button className="mySyncBtn" onClick={() => togglePopup('indie')}>
-                        <b>K인디</b>
+                        <b>인디</b>
                      </button>
                      <button className="mySyncBtn" onClick={() => togglePopup('hiphop')}>
-                        <b>K힙합</b>
+                        <b>힙합</b>
                      </button>
                      <button className="mySyncBtn" onClick={() => togglePopup('ballad')}>
-                        <b>K발라드</b>
+                        <b>발라드</b>
                      </button>
                      <button className="mySyncBtn" onClick={() => togglePopup('pop')}>
-                        <b>KPOP</b>
+                        <b>POP</b>
                      </button>
                   </div>
                </div>
