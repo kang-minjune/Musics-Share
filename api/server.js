@@ -30,7 +30,7 @@ app.use(express.json());
 
 // CORS 정책 설정
 const corsOptions = {
-    origin: ['http://localhost:3000','http://192.168.0.236:3000','http://3.35.8.101:3000','http://kangminjun.xyz:3000/'], 
+    origin: ['http://localhost:3000','http://192.168.0.236:3000','http://3.35.8.101:3000','http://kangminjun.xyz:3000'], 
     credentials: true,
 };
 app.use(cors(corsOptions));
