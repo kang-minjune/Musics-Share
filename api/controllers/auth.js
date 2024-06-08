@@ -38,6 +38,7 @@ export const login = async (req, res, next) => {
             httpOnly: true,
             sameSite: 'strict',
             domain: "localhost",
+            domain:"kangminjun.xyz",
             path: '/',
         }).status(200)
         .json({ details: {...otherDetails}, isAdmin, token });
@@ -55,6 +56,7 @@ export const logout = (req, res) => {
         path: '/',
         sameSite: 'strict',
         domain:"localhost"
+        domain:"kangminjun.xyz",
     })
     .status(200)
     .json({message: "Logged out successfully"});
