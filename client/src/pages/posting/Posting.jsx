@@ -64,7 +64,7 @@ const Posting = () => {
 
                <input name="userid" defaultValue={user?._id} style={{ display: 'none' }} />
 
-               <select name="genre" style={{float:"left",width:"75px", height:"27px"}}>
+               <select name="genre" className='genreSelect'>
                   <option value="장르" disabled selected>장르</option>
                   <option value="R&B">R&B</option>
                   <option value="K-POP">K-POP</option>
@@ -73,7 +73,7 @@ const Posting = () => {
                   <option value="발라드">발라드</option>
                   <option value="POP">POP</option>
                </select>
-               <input name="link" className='postingInput' placeholder="Link bio" style={{float:"left",width:"420px", marginLeft:"1%"}} required />
+               <input name="link" className='postingInput' placeholder="YouTube Link. Please, Check NOTICE." style={{float:"left",width:"420px", marginLeft:"1%"}} required />
                <button type="submit" className="postingBtn">POST</button>
             </div>
          </form>
