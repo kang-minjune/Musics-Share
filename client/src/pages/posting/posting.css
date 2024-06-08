@@ -2,15 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
 
 .postingMain{
-    width: 95%;
-    height: 90vh;
-    background-image: url("/public/background.png");
-    background-position: bottom ;
-    background-repeat: no-repeat;
-    background-size: 100% 70%;
-    float: left;
-    margin-top: 4%;
-    margin-left: 5%;
+  width: 95%;
+  height: 90vh;
+  background-color: white;
+  background-image: url("/public/background2.png");
+  background-position: bottom ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  float: left;
+  bottom: 0;
+  position: fixed;
 }
 
 .postingInputDiv{
@@ -27,7 +30,7 @@
 }
 
 .postingForm {
-    margin-top: 15%;
+    margin-top: 20%;
     margin-left: 35%;
 }
 
@@ -38,6 +41,8 @@
     font-size: 13px;
     background-color: transparent;
     border: none;
+    color: snow;
+    border: 10px;
 }
 
 .noticeSpan1{

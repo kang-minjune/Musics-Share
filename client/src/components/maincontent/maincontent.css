@@ -5,13 +5,17 @@
 .contentMain{
     width: 95%;
     height: 90vh;
-    background-image: url("/public/background.png");
+    background-color: white;
+    background-image: url("/public/background2.png");
     background-position: bottom ;
     background-repeat: no-repeat;
-    background-size: 100% 70%;
-    float: left;
-    margin-top: 4%;
+    background-size: 100% 100%;
     margin-left: 5%;
+    margin-bottom: 2%;
+    float: left;
+    bottom: 0;
+    position: fixed;
+
 }
 
 /* p CSS */

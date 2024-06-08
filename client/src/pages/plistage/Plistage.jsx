@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import "./plistage.css";
+import Sidecontent from '../../components/sidecontent/Sidecontent';
 
 const Plistage = () => {
 
@@ -22,6 +23,7 @@ const Plistage = () => {
    };
    return(
     <div className='stageMain'>
+
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <div className='plistageInfo'>
            
@@ -30,12 +32,12 @@ const Plistage = () => {
            
            <p>
            <br/><br/>
-            <img src='/images/CDPlay.gif' className='CDGIF'/><span className='pliInfoSpan'>R&B</span> <br/>
-            <img src='/images/CDPlay.gif' className='CDGIF'/><span className='pliInfoSpan'>K-POP</span> <br/>
-            <img src='/images/CDPlay.gif' className='CDGIF'/><span className='pliInfoSpan'>Indie</span> <br/>
-            <img src='/images/CDPlay.gif' className='CDGIF'/><span className='pliInfoSpan'>HIPHOP</span> <br/>
-            <img src='/images/CDPlay.gif' className='CDGIF'/><span className='pliInfoSpan'>Ballad</span> <br/>
-            <img src='/images/CDPlay.gif' className='CDGIF'/><span className='pliInfoSpan'>POP</span> <br/>
+            <img src='/images/MusicBox.png' className='CDGIF'/><span className='pliInfoSpan'>R&B</span> <br/>
+            <img src='/images/MusicBox.png' className='CDGIF'/><span className='pliInfoSpan'>K-POP</span> <br/>
+            <img src='/images/MusicBox.png' className='CDGIF'/><span className='pliInfoSpan'>Indie</span> <br/>
+            <img src='/images/MusicBox.png' className='CDGIF'/><span className='pliInfoSpan'>HIPHOP</span> <br/>
+            <img src='/images/MusicBox.png' className='CDGIF'/><span className='pliInfoSpan'>Ballad</span> <br/>
+            <img src='/images/MusicBox.png' className='CDGIF'/><span className='pliInfoSpan'>POP</span> <br/>
            </p>
       </div>
 

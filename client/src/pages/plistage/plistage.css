@@ -22,7 +22,7 @@
     height: 80vh;
 }
 
-/* keyframes 정의 */
+/* keyframes �뺤쓽 */
 @keyframes hoverAnimation {
     0% {
         background-color: transparent;
@@ -132,9 +132,9 @@
     font-weight:bold;
 }
 
-/* 팝업 창 배경 */
+/* �앹뾽 李� 諛곌꼍 */
 .plistagePopupMain {
-    display: block; /* 기본적으로 숨김 */
+    display: block; /* 湲곕낯�곸쑝濡� �④� */
     position: fixed;
     top: 0;
     left: 0;
@@ -145,7 +145,7 @@
 }
 
 .plistagePopup{
-    display: block; /* 기본적으로 숨김 */
+    display: block; /* 湲곕낯�곸쑝濡� �④� */
     position: fixed;
     top: 50%;
     left: 50%;
@@ -185,5 +185,5 @@
 
 #plistagePopupBtn:hover {
     background: linear-gradient(to right, white, gray);
-    animation-play-state: paused; /* 호버 시 애니메이션 일시 중지 */
+    animation-play-state: paused; /* �몃쾭 �� �좊땲硫붿씠�� �쇱떆 以묒� */
 }

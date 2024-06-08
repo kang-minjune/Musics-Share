@@ -4,13 +4,16 @@
 .editMain{
     width: 95%;
     height: 90vh;
-    background-image: url("/public/background.png");
+    background-color: white;
+    background-image: url("/public/background2.png");
     background-position: bottom ;
     background-repeat: no-repeat;
-    background-size: 100% 70%;
-    float: left;
-    margin-top: 4%;
+    background-size: 100% 100%;
     margin-left: 5%;
+    margin-bottom: 2%;
+    float: left;
+    bottom: 0;
+    position: fixed;
 }
 
 .editForm {
@@ -63,7 +66,8 @@
     left: 55%;
     transform: translate(-50%, -50%);
     padding: 20px;
-    background-color: white;
+    background-color: transparent;
+    color: snow;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     z-index: 500;
@@ -124,9 +128,10 @@
 }
 
 .mySyncBtn {
-    background-color: black;
-    color: white;
-    font-size: 18px;
+    background-color: transparent;
+    color: snow;
+    border: 2px solid snow;
+    font-size: 15px;
     border-radius: 5px;
     margin: 3%;
 }

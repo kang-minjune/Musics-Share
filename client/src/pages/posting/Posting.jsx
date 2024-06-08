@@ -56,7 +56,7 @@ const Posting = () => {
       <div className='postingMain'>
          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
          <form className="postingForm" onSubmit={handleSubmit}>
-            <h4><strong style={{ float: "left" }}><b>Add Music➕</b></strong></h4>
+            <h4><strong style={{ float: "left", color:"snow" }}><b>Add Music➕</b></strong></h4>
             <button type="button" onClick={openPopup} id="postPopupBtn" className="metal linear">NOTICE</button>
             <div className='postingInputDiv'>
                <input name="artist" className='postingInput' placeholder="Artist Name" required />
@@ -87,14 +87,23 @@ const Posting = () => {
                      <p>          
                         <br /><br />
                         <strong style={{ fontSize: '19px' }}>링크 작성 시 유의사항</strong>
+                        <br/>
+                        
+                        
+                        <br/>
+                        <br/>
+                        <a href="https://www.youtube.com/" target='_blank'>
+                                <button className='postingPopupClose'>YouTube</button>
+                        </a>
+                        <button onClick={closePopup} className='postingPopupClose'>CLOSE</button> 
                         <br />
                         <img src="/uploadInfo1.png" alt="업로드 방법1" width="500" height="400" style={{ float: 'left', marginLeft: '13%', marginTop: '5%' }} />
                         <img src="/uploadInfo2.png" alt="업로드 방법2" width="300" height="210" style={{ float: 'left', marginLeft: '1%', marginTop: '5%' }} /><br />
                         <img src="/uploadInfo3.png" alt="업로드 방법3" width="300" height="170" style={{ float: 'left', marginLeft: '1%', marginTop: '2%' }} />           
-                    
+                        
                      </p>
                  
-                  <button onClick={closePopup} className='postingPopupClose'>CLOSE</button> 
+                  
                   </div>
                </div>
                 

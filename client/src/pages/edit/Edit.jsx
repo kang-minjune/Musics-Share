@@ -171,27 +171,27 @@ const Edit = () => {
          <div className="editForm">
             <div className="editInputDiv">
                <div className="mypagePopup" onClick={(e) => e.stopPropagation()}>
-                  <h2>Edit My Sync</h2>
+                  <h1>Edit My Music</h1>
                   <br />
                   <br />
                   <div className="uploadInfoMain" style={{ float: 'left', width: '90%', height: 'auto', paddingLeft: '5%' }}>
                      <button className="mySyncBtn" onClick={() => togglePopup('rnb')}>
-                        R&B
+                        <b>R&B</b>
                      </button>
                      <button className="mySyncBtn" onClick={() => togglePopup('kpop')}>
-                        K-POP
+                        <b>K-POP</b>
                      </button>
                      <button className="mySyncBtn" onClick={() => togglePopup('indie')}>
-                        인디
+                        <b>K인디</b>
                      </button>
                      <button className="mySyncBtn" onClick={() => togglePopup('hiphop')}>
-                        힙합
+                        <b>K힙합</b>
                      </button>
                      <button className="mySyncBtn" onClick={() => togglePopup('ballad')}>
-                        발라드
+                        <b>K발라드</b>
                      </button>
                      <button className="mySyncBtn" onClick={() => togglePopup('pop')}>
-                        POP
+                        <b>KPOP</b>
                      </button>
                   </div>
                </div>

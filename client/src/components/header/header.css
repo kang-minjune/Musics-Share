@@ -33,7 +33,7 @@
     float:left;
     text-align: left;
     font-size: 13px;
-    color:cadetblue;
+    color:black;
     font-weight: 100;
     font-style: italic;
     width: 130px;
@@ -59,15 +59,15 @@
 @keyframes bounce {
     100% {
         top: -20px;
-        text-shadow: 0 1px 0 red,
-                     0 2px 0 orange,
-                     0 3px 0 yellow,
-                     0 4px 0 green,
-                     0 5px 0 blue,
-                     0 6px 0 darkblue,
-                     0 7px 0 violet,
-                     0 8px 0 black,
-                     0 9px 0 black,
+        text-shadow: 0 1px 0 white,
+                     0 2px 0 whitesmoke,
+                     0 3px 0 ghostwhite,
+                     0 4px 0 gainsboro,
+                     0 5px 0 gray,
+                     0 6px 0 darkgray,
+                     0 7px 0 rgb(96, 96, 96),
+                     0 8px 0 rgb(48, 48, 48),
+                     0 9px 0 rgb(21, 20, 20),
                      0 50px 25px rgba(0, 0, 0, .2);
     }
 }

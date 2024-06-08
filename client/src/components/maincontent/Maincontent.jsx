@@ -53,7 +53,7 @@ const Maincontent = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <p className='pContent1'>
           <span className='cd'></span>  
-          <b>
+          <b style={{color:"snow"}}>
             Share your playlist. <button onClick={openPopup} id="popupControlBtn" className="metal linear">MANUAL</button> <br/>
             Sync it right now!
           </b>
@@ -66,13 +66,13 @@ const Maincontent = () => {
 
       
       
-      <div className='MainImgDiv'>
+      {/* <div className='MainImgDiv'>
         
         <img className="MusicImg" id="Album1" src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.namu.wiki%2Fi%2FkJtBvYJUGPz5ZynVjMk6RKGTBE2cIZetP8SVXdQEzd_ZX757nQJhTqPXE_WsUQmhIBbP4s0tNLVqIYh1n9D1vQ.webp&type=a340" alt="LP1"/>
         <img className="MusicImg" id="Album2" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA2MDZfMjI1%2FMDAxNjIyOTU3OTE3NjA5.PT3Qic4vYoncWRKJqCFxlGIL6eOIoINX_MXOdquFi8cg.0FRLLSkkCXh_mfj0PKdyDmN6MhSy9FO9gqqydSGfKpgg.JPEG.jihye604012%2FKakaoTalk_20210606_142425959.jpg&type=a340" alt="LP2"/>
         <img className="MusicImg" id="Album3" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F396%2F2014%2F07%2F22%2F20140722000849_0_99_20140722105407.jpg&type=a340" alt="LP3"/>
         <img className="MusicImg" id="Album4" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA3MTlfMzYg%2FMDAxNjg5NzY4MTYzMzg2.feWn6plZhnZ1fZ7hB7UJDZYmqE3h6cIQ4ITyxMn6ZWIg.3Z2EXnsP1RTYa3IKBwWG-v1jJKAnT7DxJph5Q94CpHsg.JPEG.wwies%2FIMG_3578.jpg&type=a340" alt="LP4"/>
-      </div>
+      </div> */}
 
 
       
