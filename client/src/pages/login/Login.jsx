@@ -46,6 +46,7 @@ const Login = () => {
                 type: "LOGIN_FAILURE", 
                 payload: err.response && err.response.data ? err.response.data : { message: "Something went wrong!" } 
             });
+            window.location.reload();
         }
     };
 
