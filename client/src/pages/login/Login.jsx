@@ -64,7 +64,7 @@ const Login = () => {
                          className='loginId' 
                          placeholder='User ID' 
                          onChange={handleChange} 
-                         autocomplete="current-username"
+                         autoComplete="current-username"
                   />
                   <input 
                          type='password' 
@@ -72,7 +72,7 @@ const Login = () => {
                          className='loginPwd' 
                          placeholder='User Password' 
                          onChange={handleChange}
-                         autocomplete="current-password"
+                         autoComplete="current-password"
                   />
 
 
