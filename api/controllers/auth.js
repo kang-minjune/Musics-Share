@@ -55,7 +55,7 @@ export const logout = (req, res) => {
         secure: process.env.NODE_ENV === "production",
         path: '/',
         sameSite: 'strict',
-        domain:"localhost"
+        domain:"localhost",
         domain:"kangminjun.xyz",
     })
     .status(200)
