@@ -37,7 +37,6 @@ export const login = async (req, res, next) => {
         res.cookie("access_token", token, {
             httpOnly: true,
             sameSite: 'strict',
-            domain: "localhost",
             domain:"kangminjun.xyz",
             path: '/',
         }).status(200)
@@ -55,7 +54,6 @@ export const logout = (req, res) => {
         secure: process.env.NODE_ENV === "production",
         path: '/',
         sameSite: 'strict',
-        domain:"localhost",
         domain:"kangminjun.xyz",
     })
     .status(200)
