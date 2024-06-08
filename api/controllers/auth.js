@@ -38,7 +38,6 @@ export const login = async (req, res, next) => {
             httpOnly: true,
             sameSite: 'strict',
             path: '/',
-            domain:"kangminjun",
         }).status(200)
         .json({ details: {...otherDetails}, isAdmin, token });
         console.log(token);
@@ -53,8 +52,7 @@ export const logout = (req, res) => {
         httpOnly: true,
         secure: process.env.NODE_ENV === "production",
         path: '/',
-        sameSite: 'strict',
-        domain:"kangminjun",
+        sameSite: 'strict', 
     })
     .status(200)
     .json({message: "Logged out successfully"});
