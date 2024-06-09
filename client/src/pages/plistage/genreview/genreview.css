@@ -14,7 +14,7 @@
     z-index: 1;
     max-height: 250px; /* Maximum height of the list container */
     overflow-y: auto;  /* Enables vertical scrolling */
-    width: 200px;      /* Adjust the width as needed */
+    width: 300px;      /* Adjust the width as needed */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     border-radius: 8px; /* Rounded corners */
 }
@@ -25,18 +25,19 @@
     padding: 0;
     margin: 0;
     font-family: 'Dongle', sans-serif; /* Font family for a clean look */
-    font-size: 21px;
+    font-size: 22px;
     text-align: left;
 }
 
 /* List item styling */
 .genreListItem {
     padding: 8px 12px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: background-color 0.3s; /* Smooth transition for hover effect */
+    border-radius: 5px;
 }
 
 .genreListItem:last-child {
@@ -44,8 +45,10 @@
 }
 
 .genreListItem:hover {
-    background-color: #f9f9f9; /* Light grey background on hover */
+    background-color: black; /* Light grey background on hover */
+    color: white;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 /* Text styling for the list item */
