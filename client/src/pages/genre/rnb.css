@@ -111,6 +111,7 @@
     font-size: 13px;
     padding-bottom: 2%; /* 아래쪽에 5%의 간격을 줍니다. */
     flex-wrap: wrap; /* 리스트를 여러 줄에 걸쳐 표시 */
+    margin-left: 7%;
 }
 .listpack{
     background-color: white;
