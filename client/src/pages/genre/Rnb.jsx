@@ -125,7 +125,7 @@ const Rnb = () => {
                                 <iframe 
                                        src={music.link} 
                                        title={music.title} 
-                                       style={{width:"320px", height:"170px"}} 
+                                       style={{width:"350px", height:"170px"}} 
                                        allowFullScreen
                                 />
                                 <h4>아티스트 : {music.artist}</h4>
