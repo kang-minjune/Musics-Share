@@ -79,7 +79,6 @@ const Ballad = () => {
                 <div className="listmain">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <div className="listpack">
-                        {/* Render music list */}
                         {filteredData.map((music, index) => (
                             <div className="list-box" key={index}>
                                 <h3 style={{ alignItems: 'center' }}><b>Sync</b></h3>

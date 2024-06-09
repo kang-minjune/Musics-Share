@@ -76,14 +76,6 @@
 }
 
 /* Pop CSS */
-.PopContainer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start; /* 맨 위에 위치시키기 위해 flex-start 사용 */
-    height: 100vh;
-    padding-top: 20px; /* 상단에 약간의 패딩 추가 */
-    box-sizing: border-box;
-}
 
 .popContainer {
    width: 90%;
@@ -100,4 +92,25 @@
     margin-left: 35%;
     border:none;
     align-items: center;
+}
+
+/* list CSS */
+.listmain{
+    padding : 20px;
+    display: flex;
+    justify-content: center; /* 가로 정렬을 가운데로 설정합니다. */
+    font-size: 13px;
+    padding-bottom: 2%; /* 아래쪽에 5%의 간격을 줍니다. */
+    flex-wrap: wrap; /* 리스트를 여러 줄에 걸쳐 표시 */
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.listpack{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.list-box{
+    border: 1px solid black;
+    justify-content: center; /* 가로 정렬을 가운데로 설정합니다. */
 }

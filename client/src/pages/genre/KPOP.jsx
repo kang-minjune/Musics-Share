@@ -78,14 +78,13 @@ const Kpop = () => {
                 <div className="listmain">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <div className="listpack">
-                        {/* Render music list */}
                         {displayedData.map((music, index) => (
                             <div className="list-box" key={index}>
                                 <h3 style={{ alignItems: 'center' }}><b>Sync</b></h3>
                                 <iframe 
                                     src={music.link} 
                                     title={music.title} 
-                                    style={{width:"340px", height:"170px"}}
+                                    style={{width:"340px", height:"170px"}} 
                                     allowFullScreen
                                 />
                                 <h4>아티스트 : {music.artist}</h4>

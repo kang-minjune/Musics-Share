@@ -1,4 +1,3 @@
-
 .sideMain{
     width: 8%;
     height: 100vh;
@@ -76,15 +75,6 @@
 }
 
 /* RnB CSS */
-.RnbContainer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start; /* 맨 위에 위치시키기 위해 flex-start 사용 */
-    height: 100vh;
-    box-sizing: border-box;
-    border: 1px solid black;
-}
-
 .rnbContainer {
    width: 90%;
    float: right;

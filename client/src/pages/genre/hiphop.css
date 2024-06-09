@@ -1,4 +1,3 @@
-
 .sideMain{
     width: 8%;
     height: 100vh;
@@ -16,11 +15,10 @@
 }
 
 .sideContents {
-    width: 100;
+    width: 100%;
     height: 80vh;
 }
 
-/* keyframes 정의 */
 @keyframes hoverAnimation {
     0% {
         background-color: transparent;
@@ -36,7 +34,6 @@
     }
 }
 
-/* button CSS */
 .hiphopNaviBtn {
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -61,28 +58,18 @@
     transform: translateY(0);
 }
 
-.naviBtn:hover {
+.hiphopNaviBtn:hover {
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.08);
     transform: translateY(-2px);
 }
 
-.naviBtn:active {
+.hiphopNaviBtn:active {
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.2);
     transform: translateY(0);
 }
 
-.naviBtn.active {
+.hiphopNaviBtn.active {
     color: red;
-}
-
-/* hiphop CSS */
-.HiphopContainer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start; /* 맨 위에 위치시키기 위해 flex-start 사용 */
-    height: 100vh;
-    padding-top: 20px; /* 상단에 약간의 패딩 추가 */
-    box-sizing: border-box;
 }
 
 .hiphopContainer {
@@ -98,6 +85,28 @@
     display: flex;
     flex: 1;
     margin-left: 35%;
-    border:none;
+    border: none;
     align-items: center;
+}
+
+.listmain{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    padding-bottom: 2%;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.listpack{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.list-box{
+    border: 1px solid black;
+    justify-content: center;
 }
