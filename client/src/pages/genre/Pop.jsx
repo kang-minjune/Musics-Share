@@ -5,14 +5,11 @@ import { AuthContext } from '../../context/AuthContext';
 
 import "./pop.css";
 
-const ITEMS_PER_PAGE = 8;
-
 const Pop = () => {
     const navigate = useNavigate();
     const [searchTerm, setSearchTerm] = useState('');
     const [mpData, setMpData] = useState([]);
     const [filteredData, setFilteredData] = useState([]);
-    const [currentPage, setCurrentPage] = useState(1);
     const apiUrl = process.env.REACT_APP_API_URL;
     const { user } = useContext(AuthContext);
 
@@ -47,7 +44,6 @@ const Pop = () => {
             music.title.toLowerCase().includes(lowercasedSearchTerm)
         );
         setFilteredData(filterResults);
-        setCurrentPage(1); // Reset to the first page after search
     };
 
     const handleKeyPress = (event) => {
@@ -60,16 +56,7 @@ const Pop = () => {
         navigate(path);
     };
 
-    const paginatedData = (filteredData.length > 0 ? filteredData : mpData).slice(
-        (currentPage - 1) * ITEMS_PER_PAGE,
-        currentPage * ITEMS_PER_PAGE
-    );
-
-    const totalPages = Math.ceil((filteredData.length > 0 ? filteredData : mpData).length / ITEMS_PER_PAGE);
-
-    const handlePageChange = (pageNumber) => {
-        setCurrentPage(pageNumber);
-    };
+    const displayedData = filteredData.length > 0 ? filteredData : mpData;
 
     return (
         <div className='PopMain'>
@@ -121,14 +108,13 @@ const Pop = () => {
                 <div className="listmain">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <div className="listpack">
-                        {/* Render music list using paginated data */}
-                        {paginatedData.map((music, index) => (
+                        {displayedData.map((music, index) => (
                             <div className="list-box" key={index}>
                                 <h3 style={{ alignItems: 'center' }}><b>Sync</b></h3>
                                 <iframe 
                                     src={music.link} 
                                     title={music.title}  
-                                    style={{width:"300px", height:"160px"}}
+                                    style={{width:"340px", height:"170px"}}
                                     allowFullScreen
                                 />
                                 <h4>아티스트 : {music.artist}</h4>
@@ -138,17 +124,6 @@ const Pop = () => {
                             </div>
                         ))}
                     </div>
-                </div>
-                <div className="pagination">
-                    {Array.from({ length: totalPages }, (_, index) => (
-                        <button
-                            key={index}
-                            onClick={() => handlePageChange(index + 1)}
-                            className={`page-button ${index + 1 === currentPage ? 'active' : ''}`}
-                        >
-                            {index + 1}
-                        </button>
-                    ))}
                 </div>
             </div>
         </div>
