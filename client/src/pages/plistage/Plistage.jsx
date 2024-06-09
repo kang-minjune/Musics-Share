@@ -33,7 +33,7 @@ const Plistage = () => {
       <div className='plistageInfo'>
            
          <button type="button" onClick={openPopup} id="plistagePopupBtn" className="metal linear">NOTICE</button>
-         <span className='pliNoticeSpan'>To navigate to a genre page, click the button on the left!</span>
+         <span className='pliNoticeSpan'>Navigate to a genre page, click the button on the left!</span>
      
          <br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
@@ -44,7 +44,7 @@ const Plistage = () => {
          </div>
          
          <br/><br/><br/><br/>
-         
+
          <div className='pliInfoDiv'>
             <Rnbview />
             <KpopView />
