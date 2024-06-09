@@ -35,6 +35,16 @@ const Plistage = () => {
          <button type="button" onClick={openPopup} id="plistagePopupBtn" className="metal linear">NOTICE</button>
          <span className='pliNoticeSpan'>To navigate to a genre page, click the button on the left!</span>
      
+         <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+         <div style={{float:"left", fontSize:"24px"}}>
+            <b>
+                To view the most recently updated list, hover your cursor over the image.
+            </b>
+         </div>
+         
+         <br/><br/><br/><br/>
+         
          <div className='pliInfoDiv'>
             <Rnbview />
             <KpopView />
