@@ -4,13 +4,15 @@ import axios from 'axios';
 import { AuthContext } from '../../context/AuthContext';
 import "./rnb.css";
 
+const ITEMS_PER_PAGE = 8;
+
 const Rnb = () => {
     const navigate = useNavigate();
     const [searchTerm, setSearchTerm] = useState('');
     const [mpData, setMpData] = useState([]);
-    const [filteredData, setFilteredData] = useState([]);
     const apiUrl = process.env.REACT_APP_API_URL;
     const { user } = useContext(AuthContext);
+    const [filteredData, setFilteredData] = useState([]);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -19,6 +21,7 @@ const Rnb = () => {
                 if (response && response.data && response.data.length > 0) {
                     const filteredMusic = response.data.filter(item => item.genre === "R&B");
                     setMpData(filteredMusic);
+                    setFilteredData(filteredMusic); // Set filteredData initially
                 }
             } catch (error) {
                 console.error('Error fetching the music data', error);
@@ -33,29 +36,18 @@ const Rnb = () => {
     }, [apiUrl]);
 
     const handleSearchChange = (e) => {
-        setSearchTerm(e.target.value);
-    };
-
-    const handleSearch = () => {
-        const lowercasedSearchTerm = searchTerm.toLowerCase();
-        const filterResults = mpData.filter(music =>
-            music.artist.toLowerCase().includes(lowercasedSearchTerm) ||
-            music.title.toLowerCase().includes(lowercasedSearchTerm)
+        const searchTerm = e.target.value;
+        setSearchTerm(searchTerm);
+        const filteredMusic = mpData.filter(item =>
+            item.artist.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            item.title.toLowerCase().includes(searchTerm.toLowerCase())
         );
-        setFilteredData(filterResults);
-    };
-
-    const handleKeyPress = (event) => {
-        if (event.key === 'Enter') {
-            handleSearch();
-        }
+        setFilteredData(filteredMusic);
     };
 
     const goTo = (path) => {
         navigate(path);
     };
-
-    const displayedData = filteredData.length > 0 ? filteredData : mpData;
 
     return (
         <div className='RnbMain'>
@@ -85,27 +77,13 @@ const Rnb = () => {
                         placeholder="아티스트명/제목/장르 검색"
                         value={searchTerm}
                         onChange={handleSearchChange}
-                        onKeyPress={handleKeyPress}
                     />
-                    <button 
-                        className="search-send"
-                        style={{
-                            width: '60px',
-                            height: '25px',
-                            backgroundColor: 'transparent',
-                            color: 'black',
-                            border: "none",
-                        }}
-                        onClick={handleSearch}
-                    >
-                        검색
-                    </button>
                 </div>
                 <hr />
                 <div className="listmain">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <div className="listpack">
-                        {displayedData.map((music, index) => (
+                        {filteredData.map((music, index) => (
                             <div className="list-box" key={index}>
                                 <h3 style={{ alignItems: 'center' }}><b>Sync</b></h3>
                                 <iframe 

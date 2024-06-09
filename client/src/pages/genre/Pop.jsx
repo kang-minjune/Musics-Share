@@ -9,7 +9,6 @@ const Pop = () => {
     const navigate = useNavigate();
     const [searchTerm, setSearchTerm] = useState('');
     const [mpData, setMpData] = useState([]);
-    const [filteredData, setFilteredData] = useState([]);
     const apiUrl = process.env.REACT_APP_API_URL;
     const { user } = useContext(AuthContext);
 
@@ -37,26 +36,14 @@ const Pop = () => {
         setSearchTerm(e.target.value);
     };
 
-    const handleSearch = () => {
-        const lowercasedSearchTerm = searchTerm.toLowerCase();
-        const filterResults = mpData.filter(music =>
-            music.artist.toLowerCase().includes(lowercasedSearchTerm) ||
-            music.title.toLowerCase().includes(lowercasedSearchTerm)
-        );
-        setFilteredData(filterResults);
-    };
-
-    const handleKeyPress = (event) => {
-        if (event.key === 'Enter') {
-            handleSearch();
-        }
-    };
-
     const goTo = (path) => {
         navigate(path);
     };
 
-    const displayedData = filteredData.length > 0 ? filteredData : mpData;
+    const filteredData = mpData.filter(music =>
+        music.artist.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        music.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
 
     return (
         <div className='PopMain'>
@@ -86,29 +73,13 @@ const Pop = () => {
                         placeholder="아티스트명/제목/장르 검색"
                         value={searchTerm}
                         onChange={handleSearchChange}
-                        onKeyPress={handleKeyPress}
                     />
-                    <button 
-                        className="search-send"
-                        style={{
-                            width: '60px',
-                            height: '25px',
-                            backgroundColor: 'transparent',
-                            color: 'black',
-                            border: "none",
-                        }}
-                        onClick={handleSearch}
-                    >
-                        검색
-                    </button>
                 </div>
-
                 <hr />
-
                 <div className="listmain">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <div className="listpack">
-                        {displayedData.map((music, index) => (
+                        {filteredData.map((music, index) => (
                             <div className="list-box" key={index}>
                                 <h3 style={{ alignItems: 'center' }}><b>Sync</b></h3>
                                 <iframe 
