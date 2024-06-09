@@ -2,7 +2,12 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import "./plistage.css";
-import Sidecontent from '../../components/sidecontent/Sidecontent';
+import Rnbview from './genreview/Rnbview';
+import KpopView from './genreview/KpopView';
+import IndieView from './genreview/IndieView';
+import HiphopView from './genreview/HiphopView';
+import BalladView from './genreview/BalladView';
+import PopView from './genreview/PopView';
 
 const Plistage = () => {
 
@@ -27,18 +32,18 @@ const Plistage = () => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <div className='plistageInfo'>
            
-           <button type="button" onClick={openPopup} id="plistagePopupBtn" className="metal linear">NOTICE</button>
-           <span className='pliNoticeSpan'>To navigate to a genre page, click the button on the left!</span>
-           
-           <p>
-           <br/><br/>
-            <img src='/images/MusicBox.png' className='CDGIF'/><span className='pliInfoSpan'>R&B</span> <br/>
-            <img src='/images/MusicBox.png' className='CDGIF'/><span className='pliInfoSpan'>K-POP</span> <br/>
-            <img src='/images/MusicBox.png' className='CDGIF'/><span className='pliInfoSpan'>Indie</span> <br/>
-            <img src='/images/MusicBox.png' className='CDGIF'/><span className='pliInfoSpan'>HIPHOP</span> <br/>
-            <img src='/images/MusicBox.png' className='CDGIF'/><span className='pliInfoSpan'>Ballad</span> <br/>
-            <img src='/images/MusicBox.png' className='CDGIF'/><span className='pliInfoSpan'>POP</span> <br/>
-           </p>
+         <button type="button" onClick={openPopup} id="plistagePopupBtn" className="metal linear">NOTICE</button>
+         <span className='pliNoticeSpan'>To navigate to a genre page, click the button on the left!</span>
+     
+         <div className='pliInfoDiv'>
+            <Rnbview />
+            <KpopView />
+            <IndieView />
+            <HiphopView />
+            <BalladView />
+            <PopView />
+         </div>
+
       </div>
 
       <div className='sideMain'>

@@ -22,7 +22,7 @@
     height: 80vh;
 }
 
-/* keyframes �뺤쓽 */
+/* keyframes */
 @keyframes hoverAnimation {
     0% {
         background-color: transparent;
@@ -102,11 +102,11 @@
     margin-left: 5%;
 }
 
-.pliInfoSpan{
+.pliInfoDiv{
     font-family: "Dongle", sans-serif;
     font-size: 40px;
-    margin-right: 3%;
     float: left;
+    display:flex;
 }
 
 .CDGIF {
@@ -132,7 +132,6 @@
     font-weight:bold;
 }
 
-/* �앹뾽 李� 諛곌꼍 */
 .plistagePopupMain {
     display: block; /* 湲곕낯�곸쑝濡� �④� */
     position: fixed;

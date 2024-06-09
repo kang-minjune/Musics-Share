@@ -1,0 +1,66 @@
+/* Container for the hover effect */
+.hoverContainer {
+    position: relative;
+    display: inline-block;
+}
+
+/* List container with scroll capability */
+
+.genreDataList {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    z-index: 1;
+    max-height: 250px; /* Maximum height of the list container */
+    overflow-y: auto;  /* Enables vertical scrolling */
+    width: 200px;      /* Adjust the width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* List styling */
+.genreList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Dongle', sans-serif; /* Font family for a clean look */
+    font-size: 21px;
+    text-align: left;
+}
+
+/* List item styling */
+.genreListItem {
+    padding: 8px 12px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.genreListItem:last-child {
+    border-bottom: none;
+}
+
+.genreListItem:hover {
+    background-color: #f9f9f9; /* Light grey background on hover */
+    cursor: pointer;
+}
+
+/* Text styling for the list item */
+.genreListItem span {
+    display: block;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.genreListItem .artist {
+    font-size: 12px;
+    color: #666;
+}
+
+
+
+
