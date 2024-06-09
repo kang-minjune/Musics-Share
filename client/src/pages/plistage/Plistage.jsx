@@ -32,7 +32,7 @@ const Plistage = () => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <div className='plistageInfo'>
            
-         <button type="button" onClick={openPopup} id="plistagePopupBtn" className="metal linear">NOTICE</button>
+         {/* <button type="button" onClick={openPopup} id="plistagePopupBtn" className="metal linear">NOTICE</button> */}
          <span className='pliNoticeSpan'>Navigate to a genre page, click the button on the left!</span>
      
          <br/><br/><br/><br/><br/><br/><br/><br/><br/>
@@ -69,7 +69,7 @@ const Plistage = () => {
          </div>
       </div>
         
-      {isPopupVisible && (
+      {/* {isPopupVisible && (
             <div className="plistagePopupMain" onClick={closePopup}>
                <div className="plistagePopup" onClick={(e) => e.stopPropagation()}>
                   <h2> Click Button! <img src='/images/logo.png' width={"30px"} height={"30px"} /> </h2>
@@ -84,7 +84,7 @@ const Plistage = () => {
                  
                </div>
             </div>
-         )}
+         )} */}
     </div>
    )
 }

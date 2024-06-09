@@ -4,8 +4,6 @@ import axios from 'axios';
 import { AuthContext } from '../../context/AuthContext';
 import "./rnb.css";
 
-const ITEMS_PER_PAGE = 8;
-
 const Rnb = () => {
     const navigate = useNavigate();
     const [searchTerm, setSearchTerm] = useState('');
@@ -95,7 +93,7 @@ const Rnb = () => {
                                 <h4>아티스트 : {music.artist}</h4>
                                 <p>제목 : {music.title}</p>
                                 <p>장르 : {music.genre}</p>
-                                <p>포스팅 : {music.userid === user._id ? user.username : music.userid}</p>
+                                <p>포스팅 : {user && music.userid === user._id ? user.username : music.userid}</p>
                             </div>
                         ))}
                     </div>
