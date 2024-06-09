@@ -125,7 +125,7 @@ const Ballad = () => {
                                 <iframe 
                                     src={music.link} 
                                     title={music.title} 
-                                    style={{width:"350px", height: "200px"}} 
+                                    style={{width:"300px", height:"160px"}}
                                     allowFullScreen
                                 />
                                 <h4>아티스트 : {music.artist}</h4>

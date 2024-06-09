@@ -125,7 +125,12 @@ const Hiphop = () => {
                         {paginatedData.map((music, index) => (
                             <div className="list-box" key={index}>
                                 <h3 style={{ alignItems: 'center' }}><b>Sync</b></h3>
-                                <iframe src={music.link} title={music.title} style={{width:"350px", height:"170px"}} allowFullScreen />
+                                <iframe 
+                                        src={music.link} 
+                                        title={music.title} 
+                                        style={{width:"300px", height:"160px"}} 
+                                        allowFullScreen 
+                                />
                                 <h4>아티스트 : {music.artist}</h4>
                                 <p>제목 : {music.title}</p>
                                 <p>장르 : {music.genre}</p>
