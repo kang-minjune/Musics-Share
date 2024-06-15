@@ -1,4 +1,4 @@
-# <strong align="left"> 음악 공유 웹 사이트 Sync </strong>  <img src="https://github.com/kang-minjune/Musics-Share/blob/main/client/public/images/logo.png" alt="image" width="35" height="35">
+# <strong align="left"> 음악 공유 웹 사이트 </strong>
 
 ![image](https://github.com/kang-minjune/Musics-Share/blob/main/Sync%20README%20Banner.png)
 
