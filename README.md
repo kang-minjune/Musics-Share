@@ -1,8 +1,8 @@
-## <b>음악 공유 웹 사이트 Sync <img src="https://github.com/kang-minjune/Musics-Share/blob/main/client/public/images/logo.png" alt="image" width="35" height="35"> </b>
+## ** 음악 공유 웹 사이트 Sync <img src="https://github.com/kang-minjune/Musics-Share/blob/main/client/public/images/logo.png" alt="image" width="35" height="35"> **
 
 <br/>
 
-# **Development Environment**
+# Development Environment
 
 | 항목 | 내용 |
 | --- | --- |
