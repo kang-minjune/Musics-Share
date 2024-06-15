@@ -1,5 +1,5 @@
 # 레시피 공유 플랫폼
-![image](https://github.com/bakuuuuuuu/recipe-share-platform/assets/54611807/ed997623-ec8c-481b-b31e-dda393acdd6b)
+![image](https://github.com/kang-minjune/Musics-Share/blob/main/Sync%20IMG.png)
 
 ## 참고 사이트
 https://m.10000recipe.com/
