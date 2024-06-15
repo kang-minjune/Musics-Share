@@ -1,25 +1,26 @@
-# 음악 공유 웹 사이트
+## 음악 공유 웹 사이트
 <!--
 <b style="font-size:180px;">Sync</b>
 ![image](https://github.com/kang-minjune/Musics-Share/blob/main/client/public/images/LP.png)
 -->
 <br/>
 
-<b>Tool & Language</b> <br/>
+# <b>Tool & Language</b>
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
 ![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js)
 
+<br/><br/>
 
-
-<b>DB migration</b> <br/>
+# <b>DB migration</b>
 ![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb)
 ![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql)
 
+<br/><br/>
 
-
-<b>Cloud Computing Platform</b> <br/>
+# <b>Cloud Computing Platform</b>
 <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/>
 
+<br/><br/>
 
 # 구조도
 ![image](https://github.com/bakuuuuuuu/recipe-share-platform/assets/54611807/96cf55e1-5c55-43e5-8098-6f47bdae62b3)
