@@ -2,7 +2,7 @@
 
 ![image](https://github.com/kang-minjune/Musics-Share/blob/main/Sync%20README%20Banner.png)
 
-<div align="center">
+<div align="left">
   
   | 항목 | 내용 |
   | --- | --- |
