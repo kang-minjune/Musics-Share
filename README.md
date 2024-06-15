@@ -1,7 +1,7 @@
 <hr/>
 
 <div align="center">
-  <video src="https://github.com/kang-minjune/Musics-Share/assets/100847512/4f19128a-07a8-406b-8842-92ea7ff24e76" controls="controls" style="max-width: 100%; height: auto; margin-bottom:1%;">
+  <video src="https://github.com/kang-minjune/Musics-Share/assets/100847512/4f19128a-07a8-406b-8842-92ea7ff24e76" controls="controls" style="max-width: 100%; height: auto; padding-bottom:1%;">
     Sync 시연 영상
   </video>
 </div>
