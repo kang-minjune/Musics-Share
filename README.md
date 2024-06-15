@@ -1,6 +1,6 @@
 <hr/>
 
-![Sync Banner](https://github.com/kang-minjune/Musics-Share/assets/100847512/9fed8738-c2d5-4c0f-8633-88031403b452)
+https://github.com/kang-minjune/Musics-Share/blob/main/README%20Banner.png
 
 <div align="center">
   <video src="https://github.com/kang-minjune/Musics-Share/assets/100847512/4f19128a-07a8-406b-8842-92ea7ff24e76" controls="controls" style="max-width: 100%; height: auto;">
