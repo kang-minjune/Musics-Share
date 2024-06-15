@@ -16,6 +16,7 @@
 
 </div>
 
-![README Banner](https://github.com/kang-minjune/Musics-Share/assets/100847512/f14a9dc4-eb1c-4e86-99ae-27a61139b308)
+![README Banner](https://github.com/kang-minjune/Musics-Share/assets/100847512/29c58204-d51e-4a47-b076-86ac8161e945)
+
 
 <hr/>
