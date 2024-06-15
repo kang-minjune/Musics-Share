@@ -6,7 +6,11 @@
 
 </div>
 
-https://github.com/kang-minjune/Musics-Share/assets/100847512/4f19128a-07a8-406b-8842-92ea7ff24e76
+<div align="center">
+  <video src="https://github.com/kang-minjune/Musics-Share/assets/100847512/4f19128a-07a8-406b-8842-92ea7ff24e76" controls="controls" style="max-width: 100%; height: auto;">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 <div align="right">
   
