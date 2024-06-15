@@ -1,5 +1,6 @@
 # 음악 공유 웹 사이트
-![image](https://github.com/kang-minjune/Musics-Share/blob/main/client/public/images/CDPlay.gif) <b style="font-size:24px;">Sync</b>
+<b style="font-size:24px;">Sync</b>
+![image](https://github.com/kang-minjune/Musics-Share/blob/main/client/public/images/LP.png)
 
 # Tool & Language
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
@@ -9,11 +10,9 @@
 ![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb)<br/>
 ![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql)
 
-## Cloud Computing Platoform
+# Cloud Computing Platform
+<img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/>
 
-
-# 시연영상
-https://github.com/bakuuuuuuu/recipe-share-platform/assets/54611807/3e92e6b2-1ada-42af-8963-5a7531551b54
 
 # 구조도
 ![image](https://github.com/bakuuuuuuu/recipe-share-platform/assets/54611807/96cf55e1-5c55-43e5-8098-6f47bdae62b3)
