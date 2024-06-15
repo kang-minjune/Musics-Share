@@ -20,3 +20,5 @@
   | React Version | ^18.3.1 |
 
 </div>
+
+<hr/>
