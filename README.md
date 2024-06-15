@@ -6,6 +6,8 @@
   </video>
 </div>
 
+![README Banner](https://github.com/kang-minjune/Musics-Share/assets/100847512/29c58204-d51e-4a47-b076-86ac8161e945)
+
 <div align="right">
   
   | 항목 | 내용 | 항목 | 내용 |
@@ -15,8 +17,5 @@
   | Language | ![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)| Cloud Platform | <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/> |
 
 </div>
-
-![README Banner](https://github.com/kang-minjune/Musics-Share/assets/100847512/29c58204-d51e-4a47-b076-86ac8161e945)
-
 
 <hr/>
