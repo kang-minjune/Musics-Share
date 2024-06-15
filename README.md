@@ -1,23 +1,23 @@
-## 음악 공유 웹 사이트
+## <b>음악 공유 웹 사이트 Sync</b>
 <!--
 <b style="font-size:180px;">Sync</b>
 ![image](https://github.com/kang-minjune/Musics-Share/blob/main/client/public/images/LP.png)
 -->
 <br/>
 
-# <b>Tool & Language</b>
+# Tool & Language
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
 ![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js)
 
 <br/><br/>
 
-# <b>DB migration</b>
+# DB migration
 ![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb)
 ![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql)
 
 <br/><br/>
 
-# <b>Cloud Computing Platform</b>
+# Cloud Computing Platform
 <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/>
 
 <br/><br/>
