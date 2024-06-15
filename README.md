@@ -6,7 +6,7 @@
   
   | 항목 | 내용 |
   | --- | --- |
-  | OS | [![OS](https://img.shields.io/badge/OS-macOS-informational?style=flat-square&logo=apple&logoColor=white) |
+  | OS | ![OS](https://img.shields.io/badge/OS-macOS-informational?style=flat-square&logo=apple&logoColor=white) |
   | IDE | ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code) |
   | Language | ![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)|
   | Library | ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react) |
