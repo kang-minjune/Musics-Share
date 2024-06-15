@@ -1,9 +1,7 @@
 # 음악 공유 웹 사이트
 ![image](https://github.com/kang-minjune/Musics-Share/blob/main/Sync%20IMG.png)
 
-## Tool
-
-## Language
+# Tool & Language
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
 ![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js)
 
