@@ -1,4 +1,4 @@
-# 레시피 공유 플랫폼
+# 음악 공유 웹 사이트
 ![image](https://github.com/kang-minjune/Musics-Share/blob/main/Sync%20IMG.png)
 
 ## 참고 사이트
