@@ -12,7 +12,7 @@
 
 </div>
 
-<div align="right" style="width: 250px;">
+<div align="right">
   
   | 항목 | 내용 | 항목 | 내용 |
   | --- | --- | --- | --- |
