@@ -2,15 +2,21 @@
 <b style="font-size:180px;">Sync</b>
 ![image](https://github.com/kang-minjune/Musics-Share/blob/main/client/public/images/LP.png)
 
-# Tool & Language
+<br/>
+
+Tool & Language
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
 ![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js)
 
-# DB migration
+<br/>
+
+DB migration
 ![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb)
 ![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql)
 
-# Cloud Computing Platform
+<br/>
+
+Cloud Computing Platform
 <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/>
 
 
