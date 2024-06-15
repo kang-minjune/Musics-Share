@@ -13,6 +13,7 @@
 | IDE | ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code) |
 | Language | ![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js) |
 | FrameWork | ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react) |
+| library | react-router-dom@6.23.0, @fortawesome, styled-components@6.1.9 |  
 | React Version | ^18.3.1 |
 
 <br/><br/>
