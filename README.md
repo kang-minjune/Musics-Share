@@ -1,5 +1,5 @@
 # 음악 공유 웹 사이트
-<b style="font-size:24px;">Sync</b>
+<b style="font-size:180px;">Sync</b>
 ![image](https://github.com/kang-minjune/Musics-Share/blob/main/client/public/images/LP.png)
 
 # Tool & Language
