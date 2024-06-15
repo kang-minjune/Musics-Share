@@ -1,8 +1,16 @@
 # 음악 공유 웹 사이트
 ![image](https://github.com/kang-minjune/Musics-Share/blob/main/Sync%20IMG.png)
 
-## 참고 사이트
-https://m.10000recipe.com/
+## Tool
+
+## Language
+![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
+![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js)
+
+## DB
+![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb) 👉 ![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql)
+
+## Cloud Computing Platoform
 
 
 # 시연영상
