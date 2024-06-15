@@ -5,7 +5,6 @@
 <br/>
 
 <div align="center">
-  <h3 align="center">Development Environment</h3>
   
   | 항목 | 내용 |
   | --- | --- |
