@@ -1,12 +1,12 @@
 <hr/>
 
-https://github.com/kang-minjune/Musics-Share/assets/100847512/bdadbada-4d26-4c02-8fbc-a113278ea97a
-
 <div align="left">
   
   ![image](https://github.com/kang-minjune/Musics-Share/blob/main/Sync%20README%20Banner.png)  
 
 </div>
+
+https://github.com/kang-minjune/Musics-Share/assets/100847512/bdadbada-4d26-4c02-8fbc-a113278ea97a
 
 <div align="right">
   
