@@ -12,7 +12,6 @@
   | Library | ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react) |
   | DB | ![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb) ![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql) |
   | Cloud Platform | <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/> |
-  | library | react-router-dom@6.23.0, @fortawesome, styled-components@6.1.9 |  
   | React Version | ^18.3.1 |
 
 </div>
