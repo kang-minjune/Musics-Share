@@ -1,7 +1,5 @@
 <hr/>
 
-![Banner](https://github.com/kang-minjune/Musics-Share/blob/main/README%20Banner.png)
-
 <div align="center">
   <video src="https://github.com/kang-minjune/Musics-Share/assets/100847512/4f19128a-07a8-406b-8842-92ea7ff24e76" controls="controls" style="max-width: 100%; height: auto;">
     Sync 시연 영상
@@ -17,5 +15,7 @@
   | Language | ![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)| Cloud Platform | <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/> |
 
 </div>
+
+![README Banner](https://github.com/kang-minjune/Musics-Share/assets/100847512/f14a9dc4-eb1c-4e86-99ae-27a61139b308)
 
 <hr/>
