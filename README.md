@@ -1,8 +1,11 @@
 <hr/>
-
-![image](https://github.com/kang-minjune/Musics-Share/blob/main/Sync%20README%20Banner.png)
-
 <div align="left">
+  
+  ![image](https://github.com/kang-minjune/Musics-Share/blob/main/Sync%20README%20Banner.png)  
+
+</div>
+
+<div align="right">
   
   | 항목 | 내용 |
   | --- | --- |
