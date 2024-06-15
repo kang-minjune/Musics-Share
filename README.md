@@ -6,7 +6,7 @@
   </video>
 </div>
 
-<div align="left">
+<div align="right">
   
   | 항목 | 내용 | 항목 | 내용 |
   | --- | --- | --- | --- |
@@ -16,7 +16,7 @@
 
 </div>
 
-<div align="right" style="width:20%;">
+<div align="left" style="width:100%;">
   
   ![image](https://github.com/kang-minjune/Musics-Share/blob/main/Sync%20README%20Banner.png)  
 
