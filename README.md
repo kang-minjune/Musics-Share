@@ -6,7 +6,7 @@
   </video>
 </div>
 
-<div align="left" style="width:30%">
+<div align="left" style="width:80%">
   
   ![image](https://github.com/kang-minjune/Musics-Share/blob/main/Sync%20README%20Banner.png)  
 
