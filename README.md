@@ -14,7 +14,7 @@
 
 <div align="right">
   
-  | 항목 | 내용 | | |
+  | 항목 | 내용 | 항목 | 내용 |
   | --- | --- | --- | --- |
   | OS | ![OS](https://img.shields.io/badge/OS-macOS-informational?style=flat-square&logo=apple&logoColor=white) | Library | ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react) |
   | IDE | ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code) | DB | ![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb) ![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql) |
