@@ -6,7 +6,7 @@
 
 </div>
 
-https://github.com/kang-minjune/Musics-Share/assets/100847512/bdadbada-4d26-4c02-8fbc-a113278ea97a
+https://github.com/kang-minjune/Musics-Share/assets/100847512/4f19128a-07a8-406b-8842-92ea7ff24e76
 
 <div align="right">
   
