@@ -62,7 +62,7 @@ const Plistage = () => {
                   <button type='button' className='pliNaviBtn' onClick={() => goTo('/rnb')}><b>R&B</b></button>
                   <button type='button' className='pliNaviBtn' onClick={() => goTo('/kpop')}><b>K-POP</b></button>
                   <button type='button' className='pliNaviBtn' onClick={() => goTo('/indie')}><b>Indie</b></button>
-                  <button type='button' className='pliNaviBtn' onClick={() => goTo('/hiphop')}><b>HIPHOP</b></button>
+                  <button type='button' className='pliNaviBtn' onClick={() => goTo('/hiphop')}><b>HIP HOP</b></button>
                   <button type='button' className='pliNaviBtn' onClick={() => goTo('/ballad')}><b>Ballad</b></button>
                   <button type='button' className='pliNaviBtn' onClick={() => goTo('/pop')}><b>POP</b></button>
                </div>
