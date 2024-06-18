@@ -3,9 +3,11 @@
 # dependencies
 # 경로 확실하게 
 /api/node_modules
+/api2/node_modules
 /client/node_modules
 
 # misc
 .DS_Store
 /api/.env
+/api2/.env
 /client/.env
