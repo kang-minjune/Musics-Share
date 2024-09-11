@@ -9,6 +9,7 @@ import authRoute from "./routes/auth.js";
 import userRoute from "./routes/user.js";
 import musicRoute from "./routes/music.js";
 
+//test용 주석
 const app = express();
 dotenv.config();
 
